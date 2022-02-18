@@ -103,7 +103,7 @@ func TestAssignsToOriginUnitM1(t *testing.T) {
 			}
 
 			if !isAssigningToOriginUnit || !isAssigningToOriginUnitFromCorrectFunction {
-				t.Error("Did not assign proper value to originUnit")
+			t.Error("Did not assign proper value to originUnit")
 			}
 		}
 	}
